@@ -35,25 +35,20 @@ class Spatial_LLM_Tester():
                  results_directory:os.path = os.path.join("..","results")):
         
         #OpenAI 
-        #self._oai_api_key = self.get_api_key_from_environ_var(var_name=oai_api_var_name)
-        self._oai_api_key = "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"
-        
+        self._oai_api_key = self.get_api_key_from_environ_var(var_name=oai_api_var_name)
         self.oai_client = openai.OpenAI(api_key=self._oai_api_key)
 
         #Google Gemini
-        #self._gem_api_key = self.get_api_key_from_environ_var(var_name=gem_api_var_name)
-        self._gem_api_key = "AIzaSyBzD5XVjpM1hRwTmpBOGc1ibJjGKxXjCzg"
+        self._gem_api_key = self.get_api_key_from_environ_var(var_name=gem_api_var_name)
         genai.configure(api_key=self._gem_api_key)
         self._gem_client = None
 
         #Anthropic
-        #self._ant_api_key = self.get_api_key_from_environ_var(var_name=ant_api_var_name)
-        self._ant_api_key = "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"
+        self._ant_api_key = self.get_api_key_from_environ_var(var_name=ant_api_var_name)
         self._ant_client = Anthropic(api_key=self._ant_api_key)
 
         # #Meta
-        #self._met_api_key = self.get_api_key_from_environ_var(var_name=met_api_var_name)
-        self._met_api_key = "34484ea4-481e-4729-80da-393bfb42dd5b"
+        self._met_api_key = self.get_api_key_from_environ_var(var_name=met_api_var_name)
         self.met_client = LlamaAPI(self._met_api_key)
 
         self._data_directory = self.set_data_directory(data_directory=data_directory)

@@ -1,0 +1,264 @@
+{
+   "metadata": {
+      "model": "mixtral-8x22b-instruct",
+      "seed": 131901,
+      "temperature": 0,
+      "relation_type": "DIRECTIONAL",
+      "system_prompt": "You are answering to evaluate spatial reasoning ability. You will be presented a question and asked to answer. Where there are multiple possible answers, select the most likely. Answer as briefly as possible, preferring single word answers where they suffice. Where you do not know the answer, it is unanswerable or you are uncertain, return 'ICATQ'.",
+      "experiment time": "2025-06-06 20:58:46"
+   },
+   "results": {
+      "1": {
+         "question": "K'gari is north, northeast, northwest, south, southeast, southwest, east, or west of Perth and Ingham?",
+         "answer": "k'gari, also known as fraser island, is east of perth and north of ingham.",
+         "correct": 0,
+         "score": 0
+      },
+      "2": {
+         "question": "K'gari is north, northeast, northwest, south, southeast, southwest, east, or west of Perth?",
+         "answer": "east",
+         "correct": 1,
+         "score": 1
+      },
+      "3": {
+         "question": "K'gari is north, northeast, northwest, south, southeast, southwest, east, or west of Ingham?",
+         "answer": "k'gari, also known as fraser island, is south of ingham.",
+         "correct": 0,
+         "score": 0
+      },
+      "4": {
+         "question": "K'gari  is north, northeast, northwest, south, southeast, southwest, east, or west of Ingham and Perth?",
+         "answer": "icatq (i cannot answer that question) - k'gari, ingham, and perth are all geographical locations in australia, but without specific coordinates or a map, it's impossible to determine the exact directional relationship between them.",
+         "correct": 0,
+         "score": 0
+      },
+      "5": {
+         "question": "Ingham  is north, northeast, northwest, south, southeast, southwest, east, or west of K'gari and Perth?",
+         "answer": "ingham is north of k'gari and northwest of perth.",
+         "correct": 0,
+         "score": 0
+      },
+      "6": {
+         "question": "Ingham is north, northeast, northwest, south, southeast, southwest, east, or west of Perth",
+         "answer": "ingham is north of perth.",
+         "correct": 0,
+         "score": 0
+      },
+      "7": {
+         "question": "Ingham is north, northeast, northwest, south, southeast, southwest, east, or west of K'gari?",
+         "answer": "ingham is north of k'gari.",
+         "correct": 0,
+         "score": 0
+      },
+      "8": {
+         "question": "Whyalla is north, northeast, northwest, south, southeast, southwest, east, or west of Quirindi and Hobart?",
+         "answer": "north. whyalla is north of both quirindi and hobart.",
+         "correct": 0,
+         "score": 0
+      },
+      "9": {
+         "question": "Whyalla is north, northeast, northwest, south, southeast, southwest, east, or west of Quirindi?",
+         "answer": "north.\n\n(assuming the question refers to the locations of whyalla and quirindi in australia, whyalla is north of quirindi.)",
+         "correct": 0,
+         "score": 0
+      },
+      "10": {
+         "question": "Whyalla is north, northeast, northwest, south, southeast, southwest, east, or west of Hobart?",
+         "answer": "northwest",
+         "correct": 1,
+         "score": 2
+      },
+      "11": {
+         "question": "Whyalla is north, northeast, northwest, south, southeast, southwest, east, or west of Hobart and Quirindi?",
+         "answer": "north.\n\nwhyalla is located north of hobart and quirindi. hobart is in tasmania, an island state south of the australian mainland, and quirindi is in new south wales, which is also south of whyalla, located in south australia.",
+         "correct": 0,
+         "score": 0
+      },
+      "12": {
+         "question": "Hobart is north, northeast, northwest, south, southeast, southwest, east, or west of Whyalla and Quirindi?",
+         "answer": "northwest",
+         "correct": 0,
+         "score": 0
+      },
+      "13": {
+         "question": "Hobart is north, northeast, northwest, south, southeast, southwest, east, or west of Quirindi?",
+         "answer": "south\n\nexplanation: hobart is the capital city of tasmania, an island state located south of the australian mainland. quirindi is a town in new south wales, which is on the mainland. therefore, hobart is south of quirindi.",
+         "correct": 0,
+         "score": 0
+      },
+      "14": {
+         "question": "Hobart is north, northeast, northwest, south, southeast, southwest, east, or west of Whyalla?",
+         "answer": "south\n\nhobart is located south of whyalla in australia.",
+         "correct": 0,
+         "score": 0
+      },
+      "15": {
+         "question": "Quirindi is north, northeast, northwest, south, southeast, southwest, east, or west of Whyalla and Hobart?",
+         "answer": "icatq (i cannot answer that question) - quirindi, whyalla, and hobart are in different regions of australia, and without specific coordinates or a map, it is not possible to determine the exact direction of one from the others.",
+         "correct": 0,
+         "score": 0
+      },
+      "16": {
+         "question": "Quirindi is north, northeast, northwest, south, southeast, southwest, east, or west of Whyalla?",
+         "answer": "north\n\n(note: this answer assumes that the question is asking for the general direction from whyalla to quirindi, both of which are towns in australia. quirindi is located to the north of whyalla.)",
+         "correct": 0,
+         "score": 0
+      },
+      "17": {
+         "question": "Quirindi is north, northeast, northwest, south, southeast, southwest, east, or west of Hobart?",
+         "answer": "south\n\nexplanation: quirindi is a town in new south wales, australia, while hobart is a city in tasmania. given their relative locations, quirindi is south of hobart.",
+         "correct": 0,
+         "score": 0
+      },
+      "18": {
+         "question": "Quirindi is north, northeast, northwest, south, southeast, southwest, east, or west of Hobart and Whyalla?",
+         "answer": "north\n\nexplanation: quirindi is located in new south wales, australia, which is generally north of both hobart (tasmania) and whyalla (south australia).",
+         "correct": 0,
+         "score": 0
+      },
+      "19": {
+         "question": "Albury-Wodonga is north, northeast, northwest, south, southeast, southwest, east, or west of Fraser Island and Alice Springs?",
+         "answer": "albury-wodonga is east of fraser island and south of alice springs.",
+         "correct": 0,
+         "score": 0
+      },
+      "20": {
+         "question": "Albury-Wodonga is north, northeast, northwest, south, southeast, southwest, east, or west of Fraser Island?",
+         "answer": "albury-wodonga is west of fraser island.",
+         "correct": 0,
+         "score": 0
+      },
+      "21": {
+         "question": "Albury-Wodonga is north, northeast, northwest, south, southeast, southwest, east, or west of Alice Springs?",
+         "answer": "south. albury-wodonga is located south of alice springs in australia.",
+         "correct": 0,
+         "score": 0
+      },
+      "22": {
+         "question": "Albury-Wodonga is north, northeast, northwest, south, southeast, southwest, east, or west of Alice Springs and Fraser Island?",
+         "answer": "south. albury-wodonga is located south of alice springs and fraser island in australia.",
+         "correct": 0,
+         "score": 0
+      },
+      "23": {
+         "question": "Fraser Island is north, northeast, northwest, south, southeast, southwest, east, or west of Albury-Wodonga and Alice Springs?",
+         "answer": "north, northeast, and northwest. fraser island is located off the eastern coast of australia, while albury-wodonga and alice springs are located inland. therefore, fraser island is north of both albury-wodonga and alice springs. however, the exact direction would depend on the specific location within each of these places.",
+         "correct": 0,
+         "score": 0
+      },
+      "24": {
+         "question": "Fraser Island is north, northeast, northwest, south, southeast, southwest, east, or west of Albury-Wodonga?",
+         "answer": "north, northeast, and northwest. fraser island is located off the eastern coast of australia, while albury-wodonga is inland in the southeastern part of the country. therefore, fraser island is to the north, northeast, and northwest of albury-wodonga.",
+         "correct": 0,
+         "score": 0
+      },
+      "25": {
+         "question": "Fraser Island is north, northeast, northwest, south, southeast, southwest, east, or west of Alice Springs?",
+         "answer": "fraser island is east of alice springs.",
+         "correct": 0,
+         "score": 0
+      },
+      "26": {
+         "question": "Fraser Island is north, northeast, northwest, south, southeast, southwest, east, or west of Alice Springs and Albury-Wodonga?",
+         "answer": "north, northeast, and east. fraser island is located off the eastern coast of australia, while alice springs and albury-wodonga are located inland. therefore, fraser island is to the north, northeast, and east of these locations.",
+         "correct": 0,
+         "score": 0
+      },
+      "27": {
+         "question": "Alice Springs is north, northeast, northwest, south, southeast, southwest, east, or west of Albury-Wodonga and Fraser Island?",
+         "answer": "alice springs is northwest of albury-wodonga and north of fraser island.",
+         "correct": 0,
+         "score": 0
+      },
+      "28": {
+         "question": "Alice Springs is north, northeast, northwest, south, southeast, southwest, east, or west of Albury-Wodonga?",
+         "answer": "alice springs is north of albury-wodonga.",
+         "correct": 0,
+         "score": 0
+      },
+      "29": {
+         "question": "Alice Springs is north, northeast, northwest, south, southeast, southwest, east, or west of Fraser Island?",
+         "answer": "alice springs is west of fraser island.",
+         "correct": 0,
+         "score": 0
+      },
+      "30": {
+         "question": "Alice Springs is north, northeast, northwest, south, southeast, southwest, east, or west of Fraser Island and Albury-Wodonga?",
+         "answer": "alice springs is west of fraser island and albury-wodonga.",
+         "correct": 0,
+         "score": 0
+      },
+      "31": {
+         "question": "Fregon is north, northeast, northwest, south, southeast, southwest, east, or west of Port Douglas and Broome?",
+         "answer": "icatq (i cannot answer that question) - the information provided does not include the location of fregon relative to port douglas and broome.",
+         "correct": 0,
+         "score": 0
+      },
+      "32": {
+         "question": "Fregon is north, northeast, northwest, south, southeast, southwest, east, or west of Port Douglas?",
+         "answer": "north\n\n(fregon is a town in south australia, north of port douglas, a town in queensland, australia.)",
+         "correct": 0,
+         "score": 0
+      },
+      "33": {
+         "question": "Fregon is north, northeast, northwest, south, southeast, southwest, east, or west of Broome?",
+         "answer": "north\n\n(fregon is located north of broome in western australia)",
+         "correct": 0,
+         "score": 0
+      },
+      "34": {
+         "question": "Fregon is north, northeast, northwest, south, southeast, southwest, east, or west of Broome and Port Douglas?",
+         "answer": "fregon is south of both broome and port douglas.",
+         "correct": 0,
+         "score": 0
+      },
+      "35": {
+         "question": "Port Douglas is north, northeast, northwest, south, southeast, southwest, east, or west of Broome and Fregon?",
+         "answer": "north\n\nport douglas is located in queensland, while broome and fregon are in western australia. port douglas is north of both broome and fregon.",
+         "correct": 0,
+         "score": 0
+      },
+      "36": {
+         "question": "Port Douglas is north, northeast, northwest, south, southeast, southwest, east, or west of Broome?",
+         "answer": "north\n\nport douglas is located north of broome. both are coastal towns in australia, with port douglas being in queensland and broome in western australia.",
+         "correct": 0,
+         "score": 0
+      },
+      "37": {
+         "question": "Port Douglas is north, northeast, northwest, south, southeast, southwest, east, or west of Fregon?",
+         "answer": "northwest",
+         "correct": 0,
+         "score": 0
+      },
+      "38": {
+         "question": "Port Douglas is north, northeast, northwest, south, southeast, southwest, east, or west of Fregon and Broome?",
+         "answer": "north\n\nexplanation: port douglas is located in the northern part of queensland, australia. fregon is located in the southern part of the northern territory, and broome is located in the western part of western australia. therefore, port douglas is north of both fregon and broome.",
+         "correct": 0,
+         "score": 0
+      },
+      "39": {
+         "question": "Broome is north, northeast, northwest, south, southeast, southwest, east, or west of Port Douglas and Fregon?",
+         "answer": "broome is west of port douglas and fregon.",
+         "correct": 0,
+         "score": 0
+      },
+      "40": {
+         "question": "Broome is north, northeast, northwest, south, southeast, southwest, east, or west of Port Douglas?",
+         "answer": "broome is west of port douglas.",
+         "correct": 0,
+         "score": 0
+      },
+      "41": {
+         "question": "Broome is north, northeast, northwest, south, southeast, southwest, east, or west of Fregon?",
+         "answer": "broome is northwest of fregon.",
+         "correct": 0,
+         "score": 0
+      },
+      "42": {
+         "question": "Broome is north, northeast, northwest, south, southeast, southwest, east, or west of Fregon and Port Douglas?",
+         "answer": "broome is west of fregon and north of port douglas.",
+         "correct": 0,
+         "score": 0
+      }
+   }
+}

@@ -1,0 +1,120 @@
+{"type": "directional", "text": "Sydney is Southwest of Melbourne."}
+{"type": "directional", "text": "Melbourne is Northeast of Sydney."}
+{"type": "directional", "text": "Sydney is North of Brisbane."}
+{"type": "directional", "text": "Brisbane is South of Sydney."}
+{"type": "directional", "text": "Sydney is West of Perth."}
+{"type": "directional", "text": "Perth is East of Sydney."}
+{"type": "directional", "text": "Sydney is West of Adelaide."}
+{"type": "directional", "text": "Adelaide is East of Sydney."}
+{"type": "directional", "text": "Sydney is South of Hobart."}
+{"type": "directional", "text": "Hobart is North of Sydney."}
+{"type": "directional", "text": "Sydney is Southwest of Canberra."}
+{"type": "directional", "text": "Canberra is Northeast of Sydney."}
+{"type": "directional", "text": "Sydney is Northwest of Darwin."}
+{"type": "directional", "text": "Darwin is Southeast of Sydney."}
+{"type": "directional", "text": "Sydney is Northwest of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is Southeast of Sydney."}
+{"type": "directional", "text": "Sydney is North of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is South of Sydney."}
+{"type": "directional", "text": "Melbourne is Northeast of Brisbane."}
+{"type": "directional", "text": "Brisbane is Southwest of Melbourne."}
+{"type": "directional", "text": "Melbourne is West of Perth."}
+{"type": "directional", "text": "Perth is East of Melbourne."}
+{"type": "directional", "text": "Melbourne is Northwest of Adelaide."}
+{"type": "directional", "text": "Adelaide is Southeast of Melbourne."}
+{"type": "directional", "text": "Melbourne is South of Hobart."}
+{"type": "directional", "text": "Hobart is North of Melbourne."}
+{"type": "directional", "text": "Melbourne is Northeast of Canberra."}
+{"type": "directional", "text": "Canberra is Southwest of Melbourne."}
+{"type": "directional", "text": "Melbourne is Northwest of Darwin."}
+{"type": "directional", "text": "Darwin is Southeast of Melbourne."}
+{"type": "directional", "text": "Melbourne is Northwest of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is Southeast of Melbourne."}
+{"type": "directional", "text": "Melbourne is Northeast of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is Southwest of Melbourne."}
+{"type": "directional", "text": "Brisbane is West of Perth."}
+{"type": "directional", "text": "Perth is East of Brisbane."}
+{"type": "directional", "text": "Brisbane is Southwest of Adelaide."}
+{"type": "directional", "text": "Adelaide is Northeast of Brisbane."}
+{"type": "directional", "text": "Brisbane is South of Hobart."}
+{"type": "directional", "text": "Hobart is North of Brisbane."}
+{"type": "directional", "text": "Brisbane is South of Canberra."}
+{"type": "directional", "text": "Canberra is Northeast of Brisbane."}
+{"type": "directional", "text": "Brisbane is Northwest of Darwin."}
+{"type": "directional", "text": "Darwin is Southeast of Brisbane."}
+{"type": "directional", "text": "Brisbane is West of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is East of Brisbane."}
+{"type": "directional", "text": "Brisbane is North of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is South of Brisbane."}
+{"type": "directional", "text": "Perth is East of Adelaide."}
+{"type": "directional", "text": "Adelaide is West of Perth."}
+{"type": "directional", "text": "Perth is Southeast of Hobart."}
+{"type": "directional", "text": "Hobart is West of Perth."}
+{"type": "directional", "text": "Perth is East of Canberra."}
+{"type": "directional", "text": "Canberra is West of Perth."}
+{"type": "directional", "text": "Perth is Northeast of Darwin."}
+{"type": "directional", "text": "Darwin is Southwest of Perth."}
+{"type": "directional", "text": "Perth is Northeast of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is Southwest of Perth."}
+{"type": "directional", "text": "Perth is East of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is West of Perth."}
+{"type": "directional", "text": "Adelaide is Southeast of Hobart."}
+{"type": "directional", "text": "Hobart is Northwest of Adelaide."}
+{"type": "directional", "text": "Adelaide is East of Canberra."}
+{"type": "directional", "text": "Canberra is West of Adelaide."}
+{"type": "directional", "text": "Adelaide is North of Darwin."}
+{"type": "directional", "text": "Darwin is South of Adelaide."}
+{"type": "directional", "text": "Adelaide is North of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is South of Adelaide."}
+{"type": "directional", "text": "Adelaide is Northeast of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is Southwest of Adelaide."}
+{"type": "directional", "text": "Hobart is North of Canberra."}
+{"type": "directional", "text": "Canberra is South of Hobart."}
+{"type": "directional", "text": "Hobart is Northwest of Darwin."}
+{"type": "directional", "text": "Darwin is South of Hobart."}
+{"type": "directional", "text": "Hobart is Northwest of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is Southeast of Hobart."}
+{"type": "directional", "text": "Hobart is North of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is South of Hobart."}
+{"type": "directional", "text": "Canberra is Northwest of Darwin."}
+{"type": "directional", "text": "Darwin is Southeast of Canberra."}
+{"type": "directional", "text": "Canberra is Northwest of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is Southeast of Canberra."}
+{"type": "directional", "text": "Canberra is North of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is South of Canberra."}
+{"type": "directional", "text": "Darwin is South of Alice Springs."}
+{"type": "directional", "text": "Alice Springs is North of Darwin."}
+{"type": "directional", "text": "Darwin is Southeast of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is Northwest of Darwin."}
+{"type": "directional", "text": "Alice Springs is East of Fraser Island."}
+{"type": "directional", "text": "Fraser Island is West of Alice Springs."}
+{"type": "topological", "text": "The Australia intersects the region Australia."}
+{"type": "topological", "text": "The Australia intersects the region Cocos (Keeling) Islands / Pulu Kokos (Keeling)."}
+{"type": "topological", "text": "The Australia intersects the region Christmas Island."}
+{"type": "topological", "text": "The Australia intersects the region Heard Island and McDonald Islands."}
+{"type": "topological", "text": "The Australia intersects the region New South Wales."}
+{"type": "topological", "text": "The Australia intersects the region Northern Territory."}
+{"type": "topological", "text": "The Australia intersects the region Queensland."}
+{"type": "topological", "text": "The Australia intersects the region South Australia."}
+{"type": "topological", "text": "The Australia intersects the region Western Australia."}
+{"type": "topological", "text": "The Australia intersects the region Victoria."}
+{"type": "topological", "text": "The Australia intersects the region Australian Capital Territory."}
+{"type": "topological", "text": "The Australia intersects the region Jervis Bay Territory."}
+{"type": "topological", "text": "The Australia intersects the region Tasmania."}
+{"type": "topological", "text": "The Australia intersects the region Ashmore and Cartier Islands."}
+{"type": "topological", "text": "The Australia intersects the region Norfolk Island."}
+{"type": "topological", "text": "The Australia intersects the region Coral Sea Islands."}
+{"type": "toponym", "text": "Fraser Island is also known as K\u2019gari."}
+{"type": "toponym", "text": "Sydney, NSW is also known as Warrane."}
+{"type": "toponym", "text": "Melbourne, VIC is also known as Naarm."}
+{"type": "toponym", "text": "Newcastle, NSW is also known as Mulubinba."}
+{"type": "toponym", "text": "Perth, WA is also known as Boorlo."}
+{"type": "toponym", "text": "Alice Springs, NT is also known as Mparntwe."}
+{"type": "toponym", "text": "Bunbury, WA is also known as Goomburrup."}
+{"type": "toponym", "text": "Mount Gambier, SA is also known as Berrin."}
+{"type": "toponym", "text": "Adelaide, SA is also known as Tarntanya."}
+{"type": "toponym", "text": "Brisbane, QLD is also known as Meanjin."}
+{"type": "toponym", "text": "Albany, WA is also known as Kinjarling."}
+{"type": "toponym", "text": "Canberra, ACT is also known as Ngambri."}
+{"type": "toponym", "text": "Darwin, NT is also known as Gulumoerrgin."}
+{"type": "toponym", "text": "Hobart, TAS is also known as Nipaluna."}

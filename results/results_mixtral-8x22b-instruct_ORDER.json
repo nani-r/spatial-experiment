@@ -1,0 +1,114 @@
+{
+   "metadata": {
+      "model": "mixtral-8x22b-instruct",
+      "seed": 131901,
+      "temperature": 0,
+      "relation_type": "ORDER",
+      "system_prompt": "You are answering to evaluate spatial reasoning ability. You will be presented a question and asked to answer. Where there are multiple possible answers, select the most likely. Answer as briefly as possible, preferring single word answers where they suffice. Where you do not know the answer, it is unanswerable or you are uncertain, return 'ICATQ'.",
+      "experiment time": "2025-06-06 20:53:57"
+   },
+   "results": {
+      "1": {
+         "question": "With respect to a centroid in Hobart, is moving from Quirindi to Whyalla a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered without additional information such as a map or the specific locations of quirindi, whyalla, and the centroid in hobart.)",
+         "correct": 0,
+         "score": 0
+      },
+      "2": {
+         "question": "With respect to a centroid in Quirindi, is moving from Hobart to Whyalla a clockwise or counterclockwise direction?",
+         "answer": "icatq (i cannot answer that question). the direction of movement from hobart to whyalla with respect to a centroid in quirindi cannot be determined without knowing the exact location of the centroid in quirindi and the specific paths taken from hobart to whyalla.",
+         "correct": 0,
+         "score": 0
+      },
+      "3": {
+         "question": "With respect to a centroid in Whyalla, is moving from Quirindi to Hobart a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered without additional context such as a map or the specific locations of whyalla, quirindi, and hobart.)",
+         "correct": 0,
+         "score": 0
+      },
+      "4": {
+         "question": "With respect to a centroid in Hobart, is moving from Whyalla to Quirindi a clockwise or counterclockwise direction?",
+         "answer": "icatq (i cannot answer this question). the question requires knowledge of the exact locations of whyalla, quirindi, and hobart, as well as the ability to visualize their positions relative to each other. without this information, it is impossible to determine the direction of movement.",
+         "correct": 0,
+         "score": 0
+      },
+      "5": {
+         "question": "With respect to a centroid in Alice Springs, is moving from Fraser Island to Albury-Wodonga a clockwise or counterclockwise direction?",
+         "answer": "counterclockwise",
+         "correct": 0,
+         "score": 0
+      },
+      "6": {
+         "question": "With respect to a centroid in Fraser Island, is moving from Alice Springs to Albury-Wodonga a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered as it requires specific geographical knowledge about the locations of alice springs, albury-wodonga, and the centroid of fraser island, which are not provided in the question.)",
+         "correct": 0,
+         "score": 0
+      },
+      "7": {
+         "question": "With respect to a centroid in Alice Springs, is moving from Albury-Wodonga to Fraser Island a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered without additional context such as a map or specific coordinates.)",
+         "correct": 0,
+         "score": 0
+      },
+      "8": {
+         "question": "With respect to a centroid in Alice Springs, is moving from Albury-Wodonga to Fraser Island a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered without additional context such as a map or specific coordinates.)",
+         "correct": 0,
+         "score": 0
+      },
+      "9": {
+         "question": "With respect to a centroid in Albury-Wodonga, is moving from Alice Springs to Fraser Island a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered without additional context such as the exact location of the centroid and a map or diagram to visualize the direction.)",
+         "correct": 0,
+         "score": 0
+      },
+      "10": {
+         "question": "With respect to a centroid in Fraser Island, is moving from Albury-Wodonga to Alice Springs a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered without additional context such as a map or specific coordinates.)",
+         "correct": 0,
+         "score": 0
+      },
+      "11": {
+         "question": "With respect to a centroid in Albury-Wodonga, is moving from Fraser Island to Alice Springs a clockwise or counterclockwise direction?",
+         "answer": "icatq (this question cannot be answered without additional context or information about the specific locations and orientation of the centroid in albury-wodonga, as well as the direction of movement from fraser island to alice springs.)",
+         "correct": 0,
+         "score": 0
+      },
+      "12": {
+         "question": "With respect to a centroid in Exmouth, is moving from Port Douglas to Fregon a clockwise or counterclockwise direction?",
+         "answer": "icatq (this information cannot be accurately determined without a map or additional context.)",
+         "correct": 0,
+         "score": 0
+      },
+      "13": {
+         "question": "With respect to a centroid in Port Douglas, is moving from Exmouth to Fregon a clockwise or counterclockwise direction?",
+         "answer": "icatq (i cannot answer that question). the question lacks specific information about the locations of port douglas, exmouth, and fregon, as well as their relative positions to each other and the centroid.",
+         "correct": 0,
+         "score": 0
+      },
+      "14": {
+         "question": "With respect to a centroid in Fregon, is moving from Exmouth to Port Douglas a clockwise or counterclockwise direction?",
+         "answer": "icatq (i cannot answer that question). the direction of movement from exmouth to port douglas with respect to a centroid in fregon cannot be determined without knowing the exact locations of these places and the centroid in fregon.",
+         "correct": 0,
+         "score": 0
+      },
+      "15": {
+         "question": "With respect to a centroid in Exmouth, is moving from Fregon to Port Douglas a clockwise or counterclockwise direction?",
+         "answer": "icatq (i cannot answer that question). the question requires knowledge of the specific locations of fregon, port douglas, and exmouth, as well as their relative positions to determine the direction of movement.",
+         "correct": 0,
+         "score": 0
+      },
+      "16": {
+         "question": "With respect to a centroid in Fregon, is moving from Port Douglas to Exmouth a clockwise or counterclockwise direction?",
+         "answer": "icatq (i cannot answer that question). the direction of movement from port douglas to exmouth with respect to a centroid in fregon cannot be determined without knowing the exact locations of these places and the centroid in fregon.",
+         "correct": 0,
+         "score": 0
+      },
+      "17": {
+         "question": "With respect to a centroid in Port Douglas, is moving from Fregon to Exmouth a clockwise or counterclockwise direction?",
+         "answer": "icatq (i cannot answer that question). the question requires knowledge of the specific locations of fregon, exmouth, and port douglas, as well as their relative positions to determine the direction of movement.",
+         "correct": 0,
+         "score": 0
+      }
+   }
+}

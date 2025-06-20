@@ -1,0 +1,735 @@
+{
+    "metadata":{
+        "file_name":"topologial",
+        "relation_type":"TOPOLOGICAL",
+        "system_prompt":"You are answering to evaluate spatial reasoning ability. You will be presented a question and asked to answer. Where there are multiple possible answers, select the most likely. Answer as briefly as possible, preferring single word answers where they suffice. Where you do not know the answer, it is unanswerable or you are uncertain, return 'ICATQ'."
+    },
+    "questions":{
+        "1": {
+            "question":"Is `Tasmania, Australia' geospatially equal to `Van Dieman's Land'?",
+            "answers":{
+                "Yes":1,
+                "No":0
+            },
+            "population": 558000,
+            "comment":"Van Deiman's Land Renamed to Tasmania in 1856",
+            "sub_relation":"Equals",
+            "entity_type":["Region"],
+            "indigenous":0
+
+        },
+        "2": {
+            "question":"Is `The Red Centre' geospatially equal to `Central Australia'?",
+            "answers":{
+                "Yes":1,
+                "No":0
+                },
+            "population": 41000,
+            "comment":"Colloquialism",
+            "sub_relation":"Equals",
+            "entity_type":["Region"],
+            "indigenous":0            
+        },
+        "3": {
+            "question":"Is the `Central Australian Territory' geospatially equal to `The Northern Territory'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 41000,
+            "comment":"Centeral Australia existed from 1927 to 1931 as the southern portion of what is now the Northern Territory",
+            "sub_relation":"Equals",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "4": {
+            "question":"Is `Mparntwe, NT' geospatially equal to `Alice Springs, NT'?",
+            "answers":{
+                "Yes":1, 
+                "No":0},
+            "population": 25912,
+            "comment":"Indigenous name for Adeliade",
+            "sub_relation":"Equals",
+            "entity_type":["Region"],
+            "indigenous":1
+        },
+        "5": {
+            "question":"Is `Umoona, SA' geospatially equal to `Oodnadatta, SA'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 1437,
+            "comment": "Umoona is Indigenous name for Coober-Pedy, Oodnadatta is another Rural SA town.",
+            "sub_relation":"Equals",
+            "entity_type":["Region"],
+            "indigenous":1
+        },
+        "6": {
+            "question":"Is `Boorloo, WA' geospatially equal to `Perth, WA'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 2309338,
+            "comment": "Indigenous name",
+            "sub_relation":"Equals",
+            "entity_type":["Region"],
+            "indigenous":1
+        },
+        "7": {
+            "question":"Is `Millewa' geospatially equal to `Dhungala'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Two different indigenous names for the Murray River",
+            "sub_relation":"Equals",
+            "entity_type":["Line"],
+            "indigenous":1
+        },
+        "8": {
+            "question":"Is `Millewa' geospatially equal to 'The Darling River'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Millewa is the Ngarrindjeri name for the Murray River",
+            "sub_relation":"Equals",
+            "entity_type":["Line"],
+            "indigenous":1
+        },
+        "9": {
+            "question":"Is `The Murray River` geospatially equal to `The Darling River'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "The Darling is a Tributary of Murray River",
+            "sub_relation": "Equals",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "10": {
+            "question":"Is `The Pacific Highway' geospatially equal to `Highway 1'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Pacific Highway is Majority of HWY1, but not all.",
+            "sub_relation": "Equals",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "11": {
+            "question":"Is `Tasmania, Australia' geospatially disjoint from `Van Dieman's Land'?",
+            "answers":{
+                "Yes":0,
+                "No":1
+            },
+            "population": 558000,
+            "comment":"Van Deiman's Land Renamed to Tasmania in 1856",
+            "sub_relation":"Disjoint",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "12": {
+            "question":"Is `The Red Centre' geospatially disjoint from `Central Australia'?",
+            "answers":{
+                "Yes":0,
+                "No":1
+                },
+            "population": 41000,
+            "comment":"Colloquialism",
+            "sub_relation":"Disjoint",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "13": {
+            "question":"Is the `Central Australian Territory' geospatially disjoint from `The Northern Territory'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 41000,
+            "comment":"Centeral Australia existed from 1927 to 1931 as the southern portion of what is now the Northern Territory",
+            "sub_relation":"Disjoint",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "14": {
+            "question":"Is `Mparntwe, NT' geospatially disjoint from `Alice Springs, NT'?",
+            "answers":{
+                "Yes":0, 
+                "No":1},
+            "population": 25912,
+            "comment":"Indigenous name for Adeliade",
+            "sub_relation":"Disjoint",
+            "entity_type":["Region"],
+            "indigenous":1
+        },
+        "15": {
+            "question":"Is `Umoona, SA' geospatially disjoint from `Oodnadatta, SA'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 1437,
+            "comment": "Umoona is Indigenous name for Coober-Pedy, Oodnadatta is another Rural SA town.",
+            "sub_relation":"Disjoint",
+            "entity_type":["Region"],
+            "indigenous":1
+        },
+        "16": {
+            "question":"Is `the Molonglo River' geospatially disjoint from `Lake Burley-Griffin'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Difficult task; Molonglo flows in and out of the Lake, but the lake is not typically viewed as part of the river.",
+            "sub_relation":"Disjoint",
+            "entity_type":["Region","Line"],
+            "indigenous":0
+        },
+        "17": {
+            "question":"Is `Millewa' geospatially disjoint from `Dhungala'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Two different indigenous names for the Murray River",
+            "sub_relation":"Disjoint",
+            "entity_type":["Line"],
+            "indigenous":1
+        },
+        "18": {
+            "question":"Is `Millewa' geospatially disjoint from 'The Darling River'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Millewa is the Ngarrindjeri name for the Murray River, Darling is a tributary to the Murray, so they touch",
+            "sub_relation":"Disjoint",
+            "entity_type":["Line"],
+            "indigenous":1
+        },
+        "19": {
+            "question":"Is `The Murray River` geospatially disjoint from `The Darling River'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "The Darling is a Tributary of Murray River, they touch",
+            "sub_relation": "Disjoint",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "20": {
+            "question":"Is `The Pacific Highway' geospatially disjoint from `Highway 1'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Pacific Highway is Majority of HWY1, but not all.",
+            "sub_relation": "Disjoint",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "21": {
+            "question":"Does the Murray River geospatially intersect the Darling River?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Darling is a tributary to Murray",
+            "sub_relation":"Intersect",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "22": {
+            "question":"Does the `New England Highway' geospatially intersect the 'Cunningham Highway'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Yes, IVO Warwick, QLD",
+            "sub_relation":"Intersect",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "23": {
+            "question":"Does the `Pacific Highway' geospatially intersect `The Swan River'",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Swan River is on West Coast of Australia, Pacific HWY is East Coast ",
+            "sub_relation":"Intersect",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "24": {
+            "question":"Does the `Lyell Highway' geospatially intersect the `Franklin River'?",
+            "answers":{
+                "Yes":1,
+                "0":0},
+            "population": 0,
+            "comment": "Yes, IVO (-42.21510036241639, 146.01942107405935) in TAS",
+            "sub_relation":"Intersect",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "25": {
+            "question":"Does `The Ghan Railway' geospatially intersect `Princes Highway'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Yes, IVO Port Augusta, SA",
+            "sub_relation":"Intersect",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "26": {
+            "question":"Does the Stuart Highway geospatially intersect Alice Springs, NT?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 110,
+            "comment": "",
+            "sub_relation":"Intersect",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "27": {
+            "question":"Does the Torrens River geospatially intersect Port Augusta, SA?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "River Torrens runs through Adelaide, not Port Augusta",
+            "sub_relation":"Intersect",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "28": {
+            "question":"Does the Stuart Highway geospatially intersect `The Nullarbor Plain'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Stuart Highway also in regional SA, but is east of Nullarbor.",
+            "sub_relation":"Intersect",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "29": {
+            "question":"Does the Molonglo River geospatially intersect the Australian Capital Territory?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Yes IVO Canberra",
+            "sub_relation":"Intersect",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "30": {
+            "question":"Does the Sydney Harbour Bridge geospatially intersect Sydney Harbour, NSW",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "comment": "As the name implies",
+            "sub_relation":"Intersect",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "31": {
+            "question":"Does New South Wales geospatially touch Victoria?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Share a North/South Border",
+            "sub_relation":"Touch",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "32": {
+            "question":"Does Western Australia geospatially touch Queensland'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Seperated by NT and SA",
+            "sub_relation":"Touch",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "33": {
+            "question":"Does Tasmania geospatially touch Victoria?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Borders seperated by the Bass Strait",
+            "sub_relation":"Touch",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "34": {
+            "question":"Does Western Australia geospatially touch the Southern Ocean?",
+            "answers":{
+                "Yes":1,
+                "0":0},
+            "population": 0,
+            "comment": "Yes, IVO Leeuwin Lighthouse",
+            "sub_relation":"Touch",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "35": {
+            "question":"Does the Australian East Coast touch the Atlantic Ocean?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "No, Pacific Ocean",
+            "sub_relation":"Touch",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "36": {
+            "question":"Does the Murray River geospatially touch Victoria?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 110,
+            "comment": "Northern Border of Victoria, NSW `owns' the river",
+            "sub_relation":"Touch",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "37": {
+            "question":"Does the Northwest Coastal Highway, WA geospatially touch the Great Northern Highway, WA?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "NW Coastal becomes Great Northern Southwest of Port Headland",
+            "sub_relation":"Touch",
+            "entity_type":["Line"],
+            "indigenous":0
+        },
+        "38": {
+            "question":"Does the Eyre Highway geospatially touch `The Nullarbor Plain'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Eyre Highway intersects the Nullarbor Plain, touching requires no internal points be shared.",
+            "sub_relation":"Touch",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "39": {
+            "question":"Does the Molonglo River geospatially touch Lake Burley-Griffin?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Flows in and out of Lake Burley-Griffin, but becomes the lake for the intermittent period.",
+            "sub_relation":"Touch",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "40": {
+            "question":"Does the Sydney Harbour Bridge geospatially touch Sydney Harbour, NSW",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "comment": "Touches internal points, meaning that it is an intersection, not a touch",
+            "sub_relation":"Touch",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "41": {
+            "question":"Does the Nullarbor Plain geospatially partially overlap Western Australia and Southern Australia?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Share a North/South Border",
+            "sub_relation":"Partially Overlap",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "42": {
+            "question":"Does the Australian Capital Territory geospatially partially overlap New South Wales?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "ACT is Contained in NSW",
+            "sub_relation":"Partially Overlap",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "43": {
+            "question":"Do Victoria and New South Wales geospatially partially overlap Albury-Wodonga?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Border Town, Albury is NSW, Wodonga is VIC, seperated North and South of the Murray River.",
+            "sub_relation":"Partially Overlap",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "44": {
+            "question":"Does Brindabella National Part geospatially partially overlap New South Wales and the Australian Capital Territory?",
+            "answers":{
+                "Yes":0,
+                "0":1},
+            "population": 0,
+            "comment": "NSW Contains Brindabella NP, It touches the Western Border of the ACT.",
+            "sub_relation":"Partially Overlap",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "45": {
+            "question":"Does Lake Mackay geospatially partially overlap with the Northern Territory and Western Australia?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Yes",
+            "sub_relation":"Partially Overlap",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "46": {
+            "question":"Is New South Wales geospatially within Australia?",
+            "answers":{
+                "Yes":1,
+                "No":0
+            },
+            "population": 8339300,
+            "comment":"",
+            "sub_relation":"Within",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "47": {
+            "question":"Is The Pacific Ocean geospatially within Australia?",
+            "answers":{
+                "Yes":0,
+                "No":1
+                },
+            "population": 0,
+            "comment":"Touches East Coast",
+            "sub_relation":"Within",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "48": {
+            "question":"Is Albury-Wodonga within New South Wales?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 97793,
+            "comment":"Border town, shared with Victoria",
+            "sub_relation":"Within",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "49": {
+            "question":"Is Albury geospatially within to New South Wales?",
+            "answers":{
+                "Yes":1, 
+                "No":0},
+            "population": 53677,
+            "comment":"Yes, NSW side of Albury-Wodonga",
+            "sub_relation":"Within",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "50": {
+            "question":"Is Canberra geospatially within New South Wales?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 466466,
+            "comment": "Canberra is within in the ACT, which is within NSW. However, ACT is a sibling of NSW, it politically disjoint and so we interpret it as being not `within' NSW.",
+            "sub_relation":"Within",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "51": {
+            "question":"Is `The Swan River' geospatially within to `Western Australia'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Flows into Indian ocean through Perth from Inland WA",
+            "sub_relation":"Within",
+            "entity_type":["Line", "Region"],
+            "indigenous":0
+        },
+        "52": {
+            "question":"Is `The Pacific Highway' geospatially within New South Wales?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Highway 1 continues into QLD, but as the Pacific Motorway",
+            "sub_relation":"Within",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "53": {
+            "question":"Is the `Franklin River' geospatially within Tasmania?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "",
+            "sub_relation":"Within",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "54": {
+            "question":"Is `The Ghan Railway` geospatially within to `The Northern Territory'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Begins in NT but terminates in SA",
+            "sub_relation": "Within",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "55": {
+            "question":"Is `Townsville' geospatially within to `The Northern Territory'?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Townsville is in Queensland.",
+            "sub_relation": "Within",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "56": {
+            "question":"Does Australia geospatially contain New South Wales?",
+            "answers":{
+                "Yes":1,
+                "No":0
+            },
+            "population": 8339300,
+            "comment":"",
+            "sub_relation":"Contain",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "57": {
+            "question":"Does Australia geospatially contain The Pacific Ocean?",
+            "answers":{
+                "Yes":0,
+                "No":1
+                },
+            "population": 0,
+            "comment":"Touches East Coast",
+            "sub_relation":"Contain",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "58": {
+            "question":"Does New South Wales geospatially contain Albury-Wodonga?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 97793,
+            "comment":"Border town, shared with Victoria",
+            "sub_relation":"Contain",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "59": {
+            "question":"Does New South Wales geospatially contain Albury?",
+            "answers":{
+                "Yes":1, 
+                "No":0},
+            "population": 53677,
+            "comment":"Yes, NSW side of Albury-Wodonga",
+            "sub_relation":"Within",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "60": {
+            "question":"Does New South Wales geospatially contain Canberra?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 466466,
+            "comment": "Canberra is within in the ACT, which is within NSW. However, ACT is a sibling of NSW, it politically disjoint and so we interpret it as being not `within' NSW.",
+            "sub_relation":"Contain",
+            "entity_type":["Region"],
+            "indigenous":0
+        },
+        "61": {
+            "question":"Is Western Australia geospatially Contain to `The Swan River'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Flows into Indian ocean through Perth from Inland WA",
+            "sub_relation":"Contain",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "62": {
+            "question":"Does New South Wales geospatially contain `The Pacific Highway'?",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "Highway 1 continues into QLD, but as the Pacific Motorway",
+            "sub_relation":"Contain",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "63": {
+            "question":"Does Tasmania geospatially contain the `Franklin River'?'",
+            "answers":{
+                "Yes":1,
+                "No":0},
+            "population": 0,
+            "comment": "",
+            "sub_relation":"Contain",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "64": {
+            "question":"Does The Northern Territory geospatially contain `The Ghan Railway`?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Begins in NT but terminates in SA",
+            "sub_relation": "Contain",
+            "entity_type":["Line","Region"],
+            "indigenous":0
+        },
+        "65": {
+            "question":"Does The Northern Territory geospatially contain Townsville?",
+            "answers":{
+                "Yes":0,
+                "No":1},
+            "population": 0,
+            "comment": "Townsville is in Queensland.",
+            "sub_relation": "Contain",
+            "entity_type":["Region"],
+            "indigenous":0
+        }
+    }
+}
+
+        
+        
+      
